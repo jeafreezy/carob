@@ -10,7 +10,6 @@
 
 ## ISSUES
 # The province is not in the file.
-# write_files: missing carob_contributor.
 
 ## NOT PROCESSED
 # 02_Data_dictionary.xlsx: column definitions.
@@ -38,7 +37,8 @@ In the present dataset, meteorological data in the Pishauli locality - Chugay di
 		carob_date = "2026-10-30",
 		carob_LLM = "Cursor Grok 4.7",
 		carob_completion = 80,
-		carob_effort = 0.35
+		carob_effort = 0.35,
+		carob_contributor="Emmanuel Ayodele Jolaiya"
 )
 
 	f <- ff[basename(ff) == "01_Meteorological data_Pishauli-Chugay_2023-2024.xlsx"]
